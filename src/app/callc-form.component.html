@@ -14,9 +14,8 @@
       	<label for="filterBy">Filter By :</label>
       		<div *ngFor="let field of searchCriteria">
 	        	<label>
-	        		<input type="checkbox" name="filterBy" value="{{field}}" >{{field}}
+	        		<input type="checkbox" name="filterBy" value="{{field}}"  >{{field}}
 	       		</label>
-	        	<input type = "checkbox" name="filterBy" required [(ngModel)]="model.filterBy" >
         	</div>
       </div>
       
